@@ -37,10 +37,13 @@ Die folgenden Eigenschaften sind in der Regel für Dimensionen verfügbar:
 
 
 
-In this chapter we will show a full example of an earth observation use case using the JavaScript client in a Node.js environment and the Google Earth Engine back-end. 
-We want to produce a monthly RGB composite of Sentinel 1 backscatter data over the area of Vienna, Austria for three months in 2017. This can be used for classification and crop monitoring.
+### Beispiel 
+In diesem Beispiel soll ein monatliches RGB-Komposit aus Sentinel-1-Rückstreudaten über dem Gebiet von Wien, Österreich, für drei Monate im Jahr 2017 erstell werden. Dies kann für die Klassifizierung und die Überwachung von Pflanzen genutzt werden.
+Es wird ein JavaScript-Client in einer Node.js-Umgebung und das Google Earth Engine-Backend genutzt. Quelle: https://openeo.org/documentation/1.0/javascript/
+
+
 https://openeo.org/assets/img/getting-started-result-example.7820ee84.jpg
-Full example: 
+ 
 ```javascript
 // Make the client available to the Node.js script
 // Also include the Formula library for simple math expressions
@@ -107,4 +110,3 @@ example().catch(error => console.error(error));
 ```
 
 
-https://openeo.org/documentation/1.0/javascript/
